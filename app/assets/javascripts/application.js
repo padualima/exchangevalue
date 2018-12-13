@@ -19,3 +19,9 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+
+$(document).ready(function(){
+  $('#amount').keypress(function(){
+    $(this).submit();
+  });
+});
