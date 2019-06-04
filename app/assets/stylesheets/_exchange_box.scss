@@ -1,34 +1,42 @@
 .exchange_box{
-
+  .card{
+    box-shadow: 0px 0px 6px rgba(40,40,40,0.87);
+  }
   .card{
     border: 0;
-
+    border-bottom-left-radius: 28px;
+    border-top-right-radius: 30px;
     .card-header{
       background-color: #878d99;
-      border-radius: 0;
+      border-top-right-radius: 28px;
       color: white;
       font-weight: 700;
     }
+    .card-body{
+      padding: 0px;
+      .card-block{
+        padding-bottom: 13px;
+        padding: 20px;
 
-    .card-block{
-      padding-top: 10px;
-      padding: 20px;
+        .title{
+          color: #878d99;
+          font-weight: 900;
+        }
 
-      .title{
-        color: #878d99;
-        font-weight: 700;
-      }
-
-      .btn-exchange{
-        background-color: #5bc0de;
-        border-color: #5bc0de;
-        border-radius: 0;
+        .btn-exchange{
+          background-color: #5bc0de;
+          border-color: #5bc0de;
+          border-radius: 0;
+        }
       }
     }
   }
 }
 
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width : 960px) {
+  .title-box{
+    margin-top: 0px;
+  }
   .card-header {
     font-size: 25px;
   }

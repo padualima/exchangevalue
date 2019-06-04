@@ -13,7 +13,7 @@ $(document).ready ->
           error: (jqXHR, textStatus, errorThrown) ->
             alert textStatus
           success: (data, text, jqXHR) ->
-            $('#result').val(data.value)
+            $('#result').val(data.value).toFixed 2
         return false;
 
   $('#btnTroca').click ->

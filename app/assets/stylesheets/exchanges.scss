@@ -1,9 +1,13 @@
 body {
-  background: image-url("/background-img.jpg") no-repeat center center fixed;
+  background: image-url("/background.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+img{
+  -webkit-filter: drop-shadow(0px 0px 4px #282828);
 }
 
 .main{
@@ -12,7 +16,8 @@ body {
 
 
 .title-box{
-  margin-top: 20%;
+  margin-top: 42%;
+  font-family: 'Poppins', sans-serif;
 
   .title{
     color: black;
@@ -20,8 +25,8 @@ body {
   }
 
   .subtitle{
-    color: black;
-    text-shadow: 3px 0px 3px white;
+    color: white;
+    text-shadow: 0px 0px 6px rgba(40,40,40,0.99);
     font-size: 30px;
     margin-left: 10px;
     margin-right: 10px;
@@ -30,7 +35,7 @@ body {
 
 
 .exchange_box{
-  margin: 10px auto;
+  margin: 22px auto;
   .logo-box{
     margin: 0 auto;
     padding-bottom: 10px;
