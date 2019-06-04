@@ -17,22 +17,10 @@
 //= require bootstrap
 //= require rails-ujs
 //= require activestorage
-//= require turbolinks
 //= require_tree .
 
 $(document).ready(function(){
   $('#amount').keypress(function(){
     $(this).submit();
-  });
-
-  var typingTimer; //timer identifier
-  var doneTypingInterval = 5000; //time in ms, 1 second for example
-
-  //on keyup, start the countdown
-  $('#amount').keyup(function() {
-    clearTimeout(typingTimer);
-    if ($('#amount').val) {
-      typingTimer = setTimeout(doneTyping, doneTypingInterval);
-    }
   });
 });
