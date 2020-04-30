@@ -5,7 +5,7 @@
   "name": "ExchangeValue",
   "private": true,
   "dependencies": {
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "tether": "^1.4.5"
   }
 }
